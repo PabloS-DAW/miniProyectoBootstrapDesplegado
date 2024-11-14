@@ -1,0 +1,96 @@
+.carousel, .carousel-item {
+    height: 100vh;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    bottom: 40%;
+  }
+
+  .blackBorderInside{
+    text-shadow: 1px 1px black;
+  }
+
+  #userSVG {
+    width: 25px;
+  }
+
+  .sectionHeight {
+    height: 45vh;
+  }
+
+  .sectionHeight img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .sectionPaymentHeight {
+    height: 80vh;
+  }
+
+  .alt10vh {
+    height: 10vh;
+  }
+
+  .custom-position-sec1 {
+    top: 15%;
+  }
+
+  .custom-position-sec2 {
+    top: 15%;
+    left: 73%;
+  }
+
+  .custom-position-button {
+    bottom: -23px;
+    left: 45%;
+  }
+
+  .enlacesFooter li {
+    display: inline;
+  }
+
+  .enlacesFooter a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .enlacesFooter {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .imagesFooter img {
+    width: 25px;
+  }
+
+
+  /* Estilo formularios */
+
+  .tamañoMainForm {
+    height: 90vh;
+  }
+
+  .posLoginForm {
+    text-align: -webkit-center;
+  }
+
+  .posRegisterForm {
+    justify-self: end;
+    margin-right: 10%;
+  }
+
+  .login-container {
+    min-width: 35%;
+    max-width: 400px;
+}
+
+.posLogoRegister {
+  padding-left: 10%;
+}
