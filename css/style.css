@@ -82,15 +82,12 @@
   }
 
   .posRegisterForm {
-    justify-self: end;
-    margin-right: 10%;
-  }
-
-  .login-container {
-    min-width: 35%;
-    max-width: 400px;
+    margin: auto; /* Centrar automáticamente en dispositivos pequeños */
+    padding: 0 10%; /* Agregar espacio lateral solo en pantallas más grandes */
 }
 
-.posLogoRegister {
-  padding-left: 10%;
+  .login-container {
+    min-width: 65%;
+    max-width: 400px;
+    margin: auto;
 }
