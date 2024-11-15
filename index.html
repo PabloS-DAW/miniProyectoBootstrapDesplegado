@@ -12,17 +12,18 @@
 <nav class="navbar navbar-expand-lg navbar-primary fw-bold bg-transparent fixed-top p-0 text-white">
   <div class="row w-100 ps-4">
 
-    <div class="col-2 d-flex align-items-center justify-content-center ps-5">
+    <!-- Pantallas grandes -->
+    <div class="col-lg-2 d-none d-lg-flex align-items-center justify-content-center ps-5">
       <img src="media/logo.png" class="navbar-brand" alt="SportKing Logo" width="70">
       <p class="m-0">SPORTKING</p>
     </div>
 
-    <div class="col-8 align-content-center">
+    <div class="col-lg-8 col-1 align-content-center">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav gap-5 mx-auto fs-5">
+        <ul class="navbar-nav gap-lg-5 mx-auto fs-5">
           <li class="nav-item active"><a class="nav-link text-white" href="#">Inicio</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#pistas">Pistas</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#precios">Precios</a></li>
@@ -30,13 +31,22 @@
         </ul>
       </div>
     </div>
-    <div class="col-2 align-content-center d-flex flex-wrap justify-content-center ps-5">
+
+    <!-- Pantallas móviles -->
+    <div class="col-10 d-flex d-lg-none align-items-center justify-content-center">
+      <img src="media/logo.png" class="navbar-brand" alt="SportKing Logo" width="70">
+      <p class="m-0">SPORTKING</p>
+    </div>
+
+    <div class="col-lg-2 col-1 align-content-center d-flex flex-wrap justify-content-center">
       <a href="login.html">
         <img src="media/user-solid.svg" alt="" id="userSVG">
       </a>
     </div>
+
   </div>
 </nav>
+
 
 <!-- Carousel -->
 <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -98,8 +108,8 @@ para su partido, asegurando una experiencia sin complicaciones</p>
 
 <div class="alt10vh bg-secondary" id="precios"></div>
 
-<section class="sectionPaymentHeight border-bottom border-top border-5 border-dark bg-light">
-  <div class="container my-5">
+<section class="sectionPaymentHeight border-bottom border-top border-5 border-dark bg-light align-content-center">
+  <div class="container pb-5">
     <h2 class="text-center mb-4">Tarifas de Alquiler de Pistas Deportivas</h2>
     <table class="table table-bordered table-striped text-center w-50 mx-auto">
         <thead class="table-dark">
@@ -166,8 +176,6 @@ para su partido, asegurando una experiencia sin complicaciones</p>
         <li><a href="#">Pistas</a></li>
         <li><a href="#">Precios</a></li>
         <li><a href="#">Contacto</a></li>
-        <li><a href="#">Política de privacidad</a></li>
-        <li><a href="#">T&C</a></li>
       </ul>
     </div>
         
